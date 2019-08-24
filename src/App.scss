@@ -1,11 +1,22 @@
 @import './variables.scss';
 
-h1, h2 { 
-  color: $primaryColor;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 3rem;
 }
 
 .App {
+  padding: 50px 0;
   text-align: center;
+  background-color: lighten($primaryColor, 42%);
 }
 
 .App-logo {
