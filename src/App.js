@@ -14,14 +14,26 @@ class App extends Component {
     super();
 
     this.state = {
-      characters: []
+      characters: [],
+      searchField: ''
     }
   }
 
+  handleChange = event => {
+    this.setState({
+      searchField: event.target.value
+    })
+  }
+
   render() {
+    const { characters, searchField } = this.state;
+    const filteredCharacters = characters.filter(character => character.name.toLowerCase().includes(searchField.toLowerCase()))
+    
+
     return (
       <div className="App">
-        <CardList characters={this.state.characters} />
+        <input type='search' placeholder='search characters' value={this.state.searchField} onChange={this.handleChange} />
+        <CardList characters={filteredCharacters} />
       </div>
     );
   }
