@@ -33,6 +33,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <h1>Characters Rolodex</h1>
         <SearchBox placeholder='search characters' handleChange={this.handleChange} value={this.state.searchField} />
         <CardList characters={filteredCharacters} />
       </div>
