@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@import '../../sass/variables';
 
 .card-container {
   display: flex;
@@ -21,6 +21,7 @@
   margin: 20px 0 0;
 }
 
-.card-container h1, p {
+.card-container h1,
+p {
   color: lighten($primaryColor, 38%);
 }
