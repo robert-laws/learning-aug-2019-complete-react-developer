@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/learning-aug-2019-complete-react-developer/static/css/main.1759dbed.chunk.css",
-    "main.js": "/learning-aug-2019-complete-react-developer/static/js/main.f932f90a.chunk.js",
-    "main.js.map": "/learning-aug-2019-complete-react-developer/static/js/main.f932f90a.chunk.js.map",
+    "main.css": "/learning-aug-2019-complete-react-developer/static/css/main.32aaac34.chunk.css",
+    "main.js": "/learning-aug-2019-complete-react-developer/static/js/main.bb763796.chunk.js",
+    "main.js.map": "/learning-aug-2019-complete-react-developer/static/js/main.bb763796.chunk.js.map",
     "runtime~main.js": "/learning-aug-2019-complete-react-developer/static/js/runtime~main.5ce73a4e.js",
     "runtime~main.js.map": "/learning-aug-2019-complete-react-developer/static/js/runtime~main.5ce73a4e.js.map",
-    "static/js/2.f1d0e57c.chunk.js": "/learning-aug-2019-complete-react-developer/static/js/2.f1d0e57c.chunk.js",
-    "static/js/2.f1d0e57c.chunk.js.map": "/learning-aug-2019-complete-react-developer/static/js/2.f1d0e57c.chunk.js.map",
+    "static/js/2.3e8dffda.chunk.js": "/learning-aug-2019-complete-react-developer/static/js/2.3e8dffda.chunk.js",
+    "static/js/2.3e8dffda.chunk.js.map": "/learning-aug-2019-complete-react-developer/static/js/2.3e8dffda.chunk.js.map",
     "index.html": "/learning-aug-2019-complete-react-developer/index.html",
-    "precache-manifest.c9080101e9ae5b3ef73c5c72165dd67c.js": "/learning-aug-2019-complete-react-developer/precache-manifest.c9080101e9ae5b3ef73c5c72165dd67c.js",
+    "precache-manifest.9fa84864cb4c9204ce39e288d2394c20.js": "/learning-aug-2019-complete-react-developer/precache-manifest.9fa84864cb4c9204ce39e288d2394c20.js",
     "service-worker.js": "/learning-aug-2019-complete-react-developer/service-worker.js",
-    "static/css/main.1759dbed.chunk.css.map": "/learning-aug-2019-complete-react-developer/static/css/main.1759dbed.chunk.css.map"
+    "static/css/main.32aaac34.chunk.css.map": "/learning-aug-2019-complete-react-developer/static/css/main.32aaac34.chunk.css.map"
   }
 }
