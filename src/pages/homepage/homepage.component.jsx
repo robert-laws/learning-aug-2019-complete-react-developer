@@ -3,9 +3,10 @@ import Directory from '../../components/directory/directory.component';
 
 import './homepage.styles.scss';
 
-const HomePage = () => {
+const HomePage = (props) => {
   return (
     <div className='homepage'>
+      <button onClick={() => props.history.push('/hats')}>Hats Page</button>
       <Directory />
     </div>
   )
