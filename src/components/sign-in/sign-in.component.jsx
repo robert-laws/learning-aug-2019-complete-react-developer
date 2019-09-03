@@ -36,7 +36,7 @@ class SignIn extends Component {
       <div className='sign-in'>
         <h2>I already have an account</h2>
         <span>Sign in with your email and password</span>
-        <form onSubmit="this.handleSubmit">
+        <form onSubmit={this.handleSubmit}>
           <FormInput type="email" name="email" label="Email" handleChange={this.handleChange} value={this.state.email} required />
           <FormInput type="password" name="password" label="Password" handleChange={this.handleChange} value={this.state.password} required />
           <div className='buttons'>
