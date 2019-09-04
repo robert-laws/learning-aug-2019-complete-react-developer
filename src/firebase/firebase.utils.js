@@ -7,16 +7,16 @@ const config = {
   authDomain: "react-developer-crwn-db.firebaseapp.com",
   databaseURL: "https://react-developer-crwn-db.firebaseio.com",
   projectId: "react-developer-crwn-db",
-  storageBucket: "",
+  storageBucket: "react-developer-crwn-db.appspot.com",
   messagingSenderId: "785894595622",
   appId: "1:785894595622:web:699ad7b5de0b94b8"
 };
 
-// export const createUserProfileDocument = asnyc (userAuth, additionalData) => {
-//   if(!userAuth) return;
+export const createUserProfileDocument = async (userAuth, additionalData) => {
+  if(!userAuth) return;
 
-  
-// }
+  console.log(firestore.doc('users/128fdasha'));
+}
 
 firebase.initializeApp(config);
 
