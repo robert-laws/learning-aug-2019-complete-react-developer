@@ -10,6 +10,11 @@
   .shopping-icon {
     width: 24px;
     height: 24px;
+    transition: transform 0.2s ease-out;
+
+    &:hover {
+      transform: rotate(4deg)
+    }
   }
 
   .item-count {
