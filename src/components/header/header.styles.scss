@@ -9,6 +9,15 @@
     height: 100%;
     width: 70px;
     padding: 25px;
+
+    .logo {
+      transition: all 0.2s ease-out;
+
+      &:hover {
+        filter: invert(33%);
+        opacity: 0.9;
+      }
+    }
   }
 
   .options {
